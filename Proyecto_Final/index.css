@@ -1,0 +1,546 @@
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    display: flex;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 600px;
+    display: flex;
+    align-items: left;
+}
+
+.titulo {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'sans-serif';
+}
+
+.titulo h1 {
+    font-size: 70px;
+    margin: 0;
+    font-family: 'Segoe UI Black';
+    color: #2c0871;
+}
+
+.titulo p {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Arial Narrow';
+    color: #2c0871;
+}
+
+.opciones {
+    display: flex;
+    margin-left: 460px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Arial Black';
+}
+
+a {
+    text-decoration: none;
+    color: #2c0871;
+    margin-right: 130px;
+}
+
+.presentacion-importancia{
+    width: 100%;
+    background-color: #f7f7f7; /* Color de fondo de tu página */
+    padding: 40px 0;          /* Espacio grande para dar margen a que la imagen sobresalga */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card-presentacion {
+    width: 90%;
+    max-width: 750px;
+    background-color: #e3e3e6; /* El gris de tu tarjeta flotante */
+    border-radius: 15px;       /* Esquinas redondeadas */
+    padding: 50px;             /* Relleno interno para el texto */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Sombra suave */
+    box-sizing: border-box;
+    display: block;
+    margin-right: 250px;
+    position: relative;
+}
+
+.card-Contenido{
+    flex: none;
+    width: 100%;
+    max-width: 480px;
+}
+
+.card-presentacion h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI Black';
+    margin-bottom: 20px;
+    color: #2c0871;
+}
+
+.card-presentacion p {
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    color: #2c0871;
+    line-height: 1.6;
+}
+
+.card-imagen {
+    position: absolute;
+    top: 50%;
+    right: -200px;
+    transform: translateY(-50%);
+    z-index: 10;
+    margin:0;
+}
+
+.imagen-seguridad{
+    width: 380px;   
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    margin-top: -80px;  
+    margin-bottom: -80px;
+    display: block;
+    position: relative;
+    z-index: 1; 
+}
+
+.Seccion-confianza{
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Seccion-confianza h1 {
+    font-size: 36px;
+    font-family: 'Segoe UI Black';
+    color: #2c0871;
+    margin-bottom: 20px;
+}
+
+.container-confianza{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-confianza {
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px 30px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.card-confianza img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.card-confianza p{
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    color: #000000;
+    line-height: 1.4;
+    font-weight: bold;
+    display: block;
+}
+
+.card-confianza span{
+    font-size: 22px;
+    font-family: 'Segoe UI Semibold';
+    color: #000000;
+    line-height: 1.4;
+    font-weight: bold;
+    display: block;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #8f8f8f;
+    color: #ffffff;
+    padding: 60px 0 20px 0;
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.Footer-columna{
+    flex: 1;
+}
+
+.Footer-columna h3{
+    font-size: 20px;
+    font-family: 'Segoe UI Semibold';
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.Footer-columna p{
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    color: #ffffff;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.Footer-columna a{
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    color: #ffffff;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.nosotros{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nosotros h1{
+    font-size: 66px;
+    font-family: 'Segoe UI Black';
+    color: #2c0871;
+    margin-bottom: 20px;
+}
+
+.tarjeta-invertida{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tarjeta-invertida .card-contenido {
+    margin-left: auto;
+}
+
+.tarjeta-invertida .card-imagen {
+    position: absolute;
+    top: 50%;
+    right: auto;
+    left: -190px;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+/* Ventana principal de la portada */
+.portada-carrusel {
+    width: 100%;
+    height: 80vh; /* 80% del alto de la pantalla */
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.titulo-nosotros{
+    text-align: center;
+    background-color: #f7f7f7;
+    font-size: 36px;
+    font-family: 'Segoe UI Black';
+    color: #2c0871;
+    margin-top: 40px;
+}
+
+/* Estilo para cada diapositiva de fondo */
+.portada-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* El truco de desvanecimiento: ocultas por defecto */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+/* Cuando una diapositiva tiene la clase active se vuelve visible */
+.portada-slide.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Contenido de textos alineado a la izquierda */
+.hero-contenido {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    max-width: 600px;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-contenido h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-contenido p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.dos-columnas{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    max-width: 2000px;
+    margin: 0;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    background-color: #f7f7f7; /* Color de fondo de tu página */
+
+}
+
+.dos-columnas .card-presentacion{
+    flex: 1;
+    max-width: 500px;
+}
+
+.dos-columnas .card-contenido{
+    max-width: 320px;
+}
+
+.presentacion{
+    width: 100%;
+    background-color: #f7f7f7; /* Color de fondo de tu página */
+    padding: 40px 0;          /* Espacio grande para dar margen a que la imagen sobresalga */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card-presentacion-servicio {
+    width: 90%;
+    max-width: 1250px;
+    background-color: #e3e3e6; /* El gris de tu tarjeta flotante */
+    border-radius: 15px;       /* Esquinas redondeadas */
+    padding: 50px;             /* Relleno interno para el texto */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Sombra suave */
+    box-sizing: border-box;
+    display: block;
+    margin-right: 50px;
+    position: relative;
+}
+
+.card-Contenido-servicio{
+    flex: none;
+    width: 100%;
+    max-width: 900px;
+}
+
+.card-presentacion-servicio h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI Black';
+    margin-bottom: 20px;
+    color: #2c0871;
+}
+
+.card-presentacion-servicio p {
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    color: #2c0871;
+    line-height: 1.6;
+}
+
+.tarjeta-invertida-servicio{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tarjeta-invertida-servicio .card-Contenido-servicio {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+}
+
+.tarjeta-invertida-servicio .card-imagen {
+    position: absolute;
+    top: 50%;
+    right: auto;
+    left: -190px;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+.seccion-contacto {
+    width: 100%;
+    background-color: #f7f7f7; /* Mismo fondo claro de tu página */
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* Caja interna de dos columnas utilizando Flexbox */
+.contacto-container {
+    width: 90%;
+    max-width: 1000px; /* Tamaño ideal alineado con tus tarjetas de arriba */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+/* Columna Izquierda - Información */
+.contacto-info {
+    flex: 1;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.contacto-info h2 {
+    font-size: 36px;
+    font-family: 'Segoe UI Black', sans-serif;
+    color: #2c0871; /* Tu morado característico */
+    margin-bottom: 20px;
+}
+
+.contacto-info p {
+    font-size: 16px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.info-detalles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-item span {
+    font-weight: bold;
+    color: #2c0871;
+    font-size: 15px;
+}
+
+.info-item p {
+    margin: 5px 0 0 0;
+    font-family: 'Century Gothic', sans-serif;
+    color: #333333;
+}
+
+/* Columna Derecha - Formulario */
+.contacto-formulario {
+    flex: 1;
+    background-color: #ffffff; /* El formulario va sobre una tarjeta blanca limpia */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Sombra muy sutil */
+    box-sizing: border-box;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.grupo-campo label {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Estilo para los inputs (cajas de texto) */
+.grupo-campo input,
+.grupo-campo textarea {
+    padding: 12px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px; /* Bordes redondeados modernos */
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 15px;
+    background-color: #fafafa;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+/* Efecto cuando el usuario hace clic para escribir */
+.grupo-campo input:focus,
+.grupo-campo textarea:focus {
+    border-color: #2c0871; /* El borde cambia a tu morado de marca */
+    background-color: #ffffff;
+}
+
+/* El botón morado de enviar */
+.btn-enviar {
+    width: 100%;
+    background-color: #2c0871; /* Tu color morado */
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    font-family: 'Segoe UI Black', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-enviar:hover {
+    background-color: #1a044a; /* Se vuelve un morado más oscuro al posar el mouse */
+    transform: translateY(-2px); /* Pequeño efecto de flotado */
+}
+
+.video-tarjeta {
+    width: 360px; /* El ancho de tu tablet original */
+    height: 250px; /* Altura ideal proporcional */
+    border-radius: 15px; /* Esquinas redondeadas idénticas */
+    overflow: hidden; /* Corta el video para que respete los bordes redondeados */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    right: 800px;
+}
+
+/* Fuerza al video a rellenar toda la tarjeta */
+.video-tarjeta iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
